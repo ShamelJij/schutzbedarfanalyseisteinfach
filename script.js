@@ -267,6 +267,139 @@ const questionData = [
     ],
     correctAnswers: [3, 4], // Correct answers are options number 3 and 4 (starting from 1)
     explanation: "Wenn eine Standard-Anforderung für ein IT-System nicht umgesetzt ist und das System nur noch kurze Zeit in Betrieb ist, wird diese Anforderung als nicht erfüllt dokumentiert. Es wird dann geprüft, ob Maßnahmen zur Behebung des Defizits angesichts der kurzen Einsatzzeit des IT-Systems noch angemessen sind. Falls die daraus resultierenden Risiken in der Restlaufzeit des IT-Systems nicht mehr tragbar sind, müssen entsprechende Maßnahmen ergriffen werden, um die Risiken zu minimieren."
+},{
+  id: 25,
+  question: "Wer trägt die Verantwortung für die bei einer Risikoanalyse getroffenen Entscheidungen zu einem IT-System?",
+  choices: [
+    "der Administrator des IT-Systems",
+    "die Leitung der Institution [richtig]",
+    "der Informationssicherheitsbeauftragte",
+    "das IS-Management-Team"
+  ],
+  correctAnswers: [2], // Correct answer is option number 2 (starting from 1)
+  explanation: "Bei einer Risikoanalyse trägt die Leitung der Institution die Verantwortung für die getroffenen Entscheidungen zu einem IT-System. Die Leitung ist dafür verantwortlich, angemessene Schutzmaßnahmen zu definieren und umzusetzen, um die Sicherheit des IT-Systems zu gewährleisten."
+},{
+  id: 26,
+  question: "Welche Gefährdungen werden bei der Erstellung der Gefährdungsübersicht im ersten Schritt betrachtet?",
+  choices: [
+    "die im Anhang von BSI-Standard 200-3 enthaltenen Risikokataloge",
+    "die relevanten elementaren Gefährdungen aus dem IT-Grundschutz-Kompendium [richtig]",
+    "die im Anhang der Norm ISO 27005 angeführten Gefährdungen",
+    "die in den Abschnitten zur Gefährdungslage eines Bausteins angeführten spezifischen Gefährdungen"
+  ],
+  correctAnswers: [2], // Correct answer is option number 2 (starting from 1)
+  explanation: "Bei der Erstellung der Gefährdungsübersicht im ersten Schritt werden die relevanten elementaren Gefährdungen aus dem IT-Grundschutz-Kompendium betrachtet. Diese Gefährdungen bilden die Grundlage für die weitere Risikoanalyse und Maßnahmenplanung."
+},{
+  id: 27,
+  question: "Was bewerten Sie bei der Risikoeinschätzung?",
+  choices: [
+    "die Häufigkeit des Eintretens einer Gefährdung [richtig]",
+    "das mit einer Gefährdung verbundene Schadensausmaß [richtig]",
+    "welche Schutzziele von einer Gefährdung betroffen sind",
+    "die Wirksamkeit der geplanten und umgesetzten Maßnahmen gegen eine Gefährdung"
+  ],
+  correctAnswers: [1, 2], // Correct answers are options number 1 and 2 (starting from 1)
+  explanation: "Bei der Risikoeinschätzung werden die Häufigkeit des Eintretens einer Gefährdung und das mit dieser Gefährdung verbundene Schadensausmaß bewertet. Diese Bewertung bildet die Grundlage für die Bestimmung des Risikos und die Festlegung geeigneter Schutzmaßnahmen."
+},{
+  id: 28,
+  question: "Wodurch verlagern Sie ein Risiko?",
+  choices: [
+    "durch den Abschluss einer Versicherung [richtig]",
+    "durch Outsourcing des risikobehafteten Geschäftsprozesses an einen externen Dienstleister [richtig]",
+    "durch Umstrukturierung des risikobehafteten Geschäftsprozesses",
+    "durch die Entscheidung, risikomindernde Maßnahmen erst dann umzusetzen, wenn die hierzu erforderlichen Finanzmittel bereitstehen"
+  ],
+  correctAnswers: [1, 2], // Correct answers are options number 1 and 2 (starting from 1)
+  explanation: "Ein Risiko kann durch den Abschluss einer Versicherung oder durch Outsourcing des risikobehafteten Geschäftsprozesses an einen externen Dienstleister verlagert werden. Diese Maßnahmen reduzieren die direkte Verantwortung und finanzielle Belastung für das betroffene Unternehmen im Falle eines Schadensereignisses."
+},{
+  id: 29,
+  question: "Aus welchen Gründen kann es gerechtfertigt sein, auch ein hohes Risiko zu akzeptieren?",
+  choices: [
+    "Der Aufwand für mögliche Schutzmaßnahmen ist unangemessen hoch. [richtig]",
+    "Vergleichbare Institutionen akzeptieren das Risiko ebenfalls.",
+    "Es gibt keine wirksamen Schutzmaßnahmen gegen das Risiko. [richtig]",
+    "Es ist bislang noch zu keinem nennenswerten Sicherheitsvorfall aufgrund der dem Risiko zugrunde liegenden Gefährdung gekommen."
+  ],
+  correctAnswers: [1, 3], // Correct answers are options number 1 and 3 (starting from 1)
+  explanation: "Es kann gerechtfertigt sein, ein hohes Risiko zu akzeptieren, wenn der Aufwand für mögliche Schutzmaßnahmen unangemessen hoch ist oder wenn es keine wirksamen Schutzmaßnahmen gegen das Risiko gibt. In solchen Fällen kann die Organisation entscheiden, das Risiko zu akzeptieren. Die Entscheidung zur Risikoakzeptanz sollte jedoch gut dokumentiert und begründet werden."
+},{
+  id: 30,
+  question: "Wann ist die Risikoakzeptanz grundsätzlich unzulässig?",
+  choices: [
+    "bei der Nichterfüllung von Basis-Anforderungen [richtig]",
+    "beim Vorhandensein von elementaren Gefährdungen",
+    "bei sehr hohem Schutzbedarf",
+    "bei Nichterfüllung von Standard-Anforderungen"
+  ],
+  correctAnswers: [1], // Correct answer is option number 1 (starting from 1)
+  explanation: "Die Risikoakzeptanz ist grundsätzlich unzulässig, wenn Basis-Anforderungen nicht erfüllt werden. Basis-Anforderungen sind essentielle Sicherheitsmaßnahmen, die unabhängig von spezifischen Gefährdungen gelten und gewährleisten, dass ein Mindestmaß an Sicherheit vorhanden ist. Die Nichterfüllung von Basis-Anforderungen stellt ein zu hohes Risiko dar und sollte nicht akzeptiert werden."
+},{
+  id: 31,
+  question: "Was müssen Sie prüfen, wenn Sie die Umsetzung von Sicherheitsmaßnahmen planen?",
+  choices: [
+    "welche begleitenden Maßnahmen für eine erfolgreiche Umsetzung erforderlich sind [richtig]",
+    "ob die betreffende Maßnahme bereits eingeführt ist",
+    "ob die Maßnahme mit anderen Maßnahmen vereinbar ist [richtig]",
+    "in welcher Reihenfolge die verschiedenen Maßnahmen umgesetzt werden sollen [richtig]"
+  ],
+  correctAnswers: [1, 3, 4], // Correct answers are options number 1, 3, and 4 (starting from 1)
+  explanation: "Bei der Planung der Umsetzung von Sicherheitsmaßnahmen müssen verschiedene Aspekte geprüft werden. Es ist wichtig zu überlegen, welche begleitenden Maßnahmen für eine erfolgreiche Umsetzung erforderlich sind. Zudem muss geprüft werden, ob die Maßnahme mit anderen Maßnahmen vereinbar ist, um Inkonsistenzen zu vermeiden. Auch die Reihenfolge, in der die verschiedenen Maßnahmen umgesetzt werden sollen, sollte sorgfältig geplant werden, um einen effizienten und effektiven Sicherheitsprozess sicherzustellen."
+},{
+  id: 32,
+  question: "Welche Informationen aus dem IT-Grundschutz-Kompendium unterstützen Sie bei der Festlegung einer sinnvollen Umsetzungsreihenfolge der geplanten Maßnahmen?",
+  choices: [
+    "die fünfstufige Kennziffer zur Angabe der Priorität einer Anforderung in den IT-Grundschutz-Bausteinen",
+    "die Aufteilung der Anforderungen in Basis- und Standard-Anforderungen sowie solchen für den höheren Schutzbedarf [richtig]",
+    "der Vorschlag zur Kennzeichnung einer sinnvollen Bearbeitungsreihenfolge der Bausteine mithilfe der Kürzel R1, R2 und R3 [richtig]",
+    "die Darstellung der Gefährdungslage am Beginn eines Bausteins"
+  ],
+  correctAnswers: [2, 3], // Correct answers are options number 2 and 3 (starting from 1)
+  explanation: "Bei der Festlegung einer sinnvollen Umsetzungsreihenfolge der geplanten Maßnahmen im IT-Grundschutz werden verschiedene Informationen aus dem IT-Grundschutz-Kompendium herangezogen. Die Aufteilung der Anforderungen in Basis- und Standard-Anforderungen sowie solchen für den höheren Schutzbedarf ist eine wichtige Grundlage. Zusätzlich wird der Vorschlag zur Kennzeichnung einer sinnvollen Bearbeitungsreihenfolge der Bausteine mithilfe der Kürzel R1, R2 und R3 als Orientierungshilfe verwendet."
+},
+{
+  id: 33,
+  question: "Was unternehmen Sie als Informationssicherheitsbeauftragter, wenn die Leitung Ihrer Institution nicht bereit ist, den Aufwand für eine bestimmte Sicherheitsmaßnahme zu tragen?",
+  choices: [
+    "Sie verdeutlichen ihr, welche Risiken mit dem Fehlen der Maßnahme verbunden sind. [richtig]",
+    "Sie bitten die Leitung, durch Unterschrift zu bestätigen, dass sie die damit verbundenen Gefahren kennt und trägt. [richtig]",
+    "Sie ignorieren die Leitung und setzen die Maßnahme trotzdem um.",
+    "Sie verzichten auf eine unmittelbare Reaktion, nehmen sich aber vor, nach Ablauf einer gewissen Zeitspanne die Zustimmung der Leitung einzuholen."
+  ],
+  correctAnswers: [1, 2], // Correct answers are options number 1 and 2 (starting from 1)
+  explanation: "Als Informationssicherheitsbeauftragter ist es Ihre Verantwortung, die Leitung über die Risiken zu informieren, die mit dem Fehlen einer bestimmten Sicherheitsmaßnahme verbunden sind. Sie sollten die Leitung deutlich darauf hinweisen und sie bitten, durch Unterschrift zu bestätigen, dass sie die damit verbundenen Gefahren kennt und trägt. Ignorieren der Leitung oder eigenmächtiges Handeln ohne Zustimmung ist nicht empfohlen."
+},{
+  id: 34,
+  question: "Wer sollte in der Regel technische Maßnahmen zur Absicherung eines bestimmten IT-Systems umsetzen?",
+  choices: [
+    "die Leitung der IT-Abteilung",
+    "der Informationssicherheitsbeauftragte",
+    "der zuständige Systemadministrator [richtig]",
+    "der Benutzer des IT-Systems"
+  ],
+  correctAnswers: [3], // Correct answer is option number 3 (starting from 1)
+  explanation: "In der Regel ist der zuständige Systemadministrator für die Umsetzung technischer Maßnahmen zur Absicherung eines bestimmten IT-Systems verantwortlich. Der Systemadministrator verfügt über das technische Wissen und die Expertise, um die erforderlichen Maßnahmen effektiv umzusetzen."
+},{
+  id: 35,
+  question: "Wer sollte üblicherweise prüfen, ob eine Sicherheitsmaßnahme wie geplant umgesetzt ist?",
+  choices: [
+    "die Geschäftsführung",
+    "der Informationssicherheitsbeauftragte [richtig]",
+    "der zuständige IT-Administrator",
+    "die Leitung der IT-Abteilung"
+  ],
+  correctAnswers: [2], // Correct answer is option number 2 (starting from 1)
+  explanation: "Der Informationssicherheitsbeauftragte sollte üblicherweise prüfen, ob eine Sicherheitsmaßnahme wie geplant umgesetzt ist. Diese Prüfung ist Teil seiner Verantwortlichkeiten im Rahmen des Informationssicherheitsmanagements."
+},{
+  id: 36,
+  question: "Welches Hilfsmittel im IT-Grundschutz-Kompendium können Sie verwenden, um Ihrer Leitung zu verdeutlichen, welche Risiken die Nichterfüllung von Anforderungen mit sich bringt?",
+  choices: [
+    "das Restrisikodeklarationsformular im Anhang des Kompendiums",
+    "die Kreuzreferenztabellen am Ende eines Bausteins [richtig]",
+    "das Risikokalkulationsschema in der Übersicht der elementaren Gefährdungen",
+    "die Beispiele für eine erfolgreiche Sensibilisierung im Baustein ORP.3 Sensibilisierung und Schulung"
+  ],
+  correctAnswers: [2], // Correct answer is option number 2 (starting from 1)
+  explanation: "Um der Leitung zu verdeutlichen, welche Risiken die Nichterfüllung von Anforderungen mit sich bringt, können Sie die Kreuzreferenztabellen am Ende eines Bausteins im IT-Grundschutz-Kompendium verwenden. Diese Tabellen bieten einen Überblick über die Zusammenhänge zwischen den Anforderungen und den entsprechenden Gefährdungen, Schutzzielen und Maßnahmen."
 }
 ];
 
