@@ -294,6 +294,7 @@ showExplanationBtn.addEventListener("click", function () {
     const currentQuestion = questionData[currentQuestionIndex];
     explanationDiv.textContent = currentQuestion.explanation;
     explanationDiv.classList.remove("d-none");
+    explanationDiv.scrollIntoView({ behavior: 'smooth' });
 });
 
 function displayQuestion(question) {
@@ -334,6 +335,7 @@ function displayResult(correct) {
             choice.classList.remove("alert-primary");
             choice.classList.remove("alert-danger");
             choice.classList.add(isCorrect ? "alert-success" : "alert-danger");
+
         }
     });
 
@@ -359,6 +361,7 @@ function displayResult(correct) {
         //updateCookie(answeredQuestions, correctPercentage);
         showPercentage();
         console.log("correctAnswers: ", correctPercentage , " - answeredQuestions: ", answeredQuestions);
+        resultDiv.scrollIntoView({ behavior: 'smooth' });
     } else {
       const wrongVariants = ["Schade, das ist nicht korrekt! Netflix ist unterhaltsam, aber für Schutzbedarfanalyse musst du anderswo suchen.",
     "Falsch! Netflix bietet Unterhaltung, aber für Schutzbedarfanalyse-Wissen gibt es bessere Quellen.",
@@ -399,6 +402,7 @@ function displayResult(correct) {
         showPercentage();
         //updateCookie(answeredQuestions, correctPercentage);
         console.log("answeredQuestions: ", answeredQuestions);
+        resultDiv.scrollIntoView({ behavior: 'smooth' });
     }
 }
 
@@ -425,6 +429,7 @@ function displayRandomQuestion() {
     nextBtn.disabled = true;
     resultDiv.textContent = "";
     resultDiv.classList.remove("text-success", "text-danger");
+    questionDiv.scrollIntoView({ behavior: 'smooth' });
 }
 
 submitBtn.addEventListener("click", function () {
