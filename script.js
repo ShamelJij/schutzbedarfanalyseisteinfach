@@ -272,7 +272,7 @@ const questionData = [
   question: "Wer trägt die Verantwortung für die bei einer Risikoanalyse getroffenen Entscheidungen zu einem IT-System?",
   choices: [
     "der Administrator des IT-Systems",
-    "die Leitung der Institution [richtig]",
+    "die Leitung der Institution ",
     "der Informationssicherheitsbeauftragte",
     "das IS-Management-Team"
   ],
@@ -283,7 +283,7 @@ const questionData = [
   question: "Welche Gefährdungen werden bei der Erstellung der Gefährdungsübersicht im ersten Schritt betrachtet?",
   choices: [
     "die im Anhang von BSI-Standard 200-3 enthaltenen Risikokataloge",
-    "die relevanten elementaren Gefährdungen aus dem IT-Grundschutz-Kompendium [richtig]",
+    "die relevanten elementaren Gefährdungen aus dem IT-Grundschutz-Kompendium ",
     "die im Anhang der Norm ISO 27005 angeführten Gefährdungen",
     "die in den Abschnitten zur Gefährdungslage eines Bausteins angeführten spezifischen Gefährdungen"
   ],
@@ -293,8 +293,8 @@ const questionData = [
   id: 27,
   question: "Was bewerten Sie bei der Risikoeinschätzung?",
   choices: [
-    "die Häufigkeit des Eintretens einer Gefährdung [richtig]",
-    "das mit einer Gefährdung verbundene Schadensausmaß [richtig]",
+    "die Häufigkeit des Eintretens einer Gefährdung ",
+    "das mit einer Gefährdung verbundene Schadensausmaß ",
     "welche Schutzziele von einer Gefährdung betroffen sind",
     "die Wirksamkeit der geplanten und umgesetzten Maßnahmen gegen eine Gefährdung"
   ],
@@ -304,8 +304,8 @@ const questionData = [
   id: 28,
   question: "Wodurch verlagern Sie ein Risiko?",
   choices: [
-    "durch den Abschluss einer Versicherung [richtig]",
-    "durch Outsourcing des risikobehafteten Geschäftsprozesses an einen externen Dienstleister [richtig]",
+    "durch den Abschluss einer Versicherung ",
+    "durch Outsourcing des risikobehafteten Geschäftsprozesses an einen externen Dienstleister ",
     "durch Umstrukturierung des risikobehafteten Geschäftsprozesses",
     "durch die Entscheidung, risikomindernde Maßnahmen erst dann umzusetzen, wenn die hierzu erforderlichen Finanzmittel bereitstehen"
   ],
@@ -315,9 +315,9 @@ const questionData = [
   id: 29,
   question: "Aus welchen Gründen kann es gerechtfertigt sein, auch ein hohes Risiko zu akzeptieren?",
   choices: [
-    "Der Aufwand für mögliche Schutzmaßnahmen ist unangemessen hoch. [richtig]",
+    "Der Aufwand für mögliche Schutzmaßnahmen ist unangemessen hoch. ",
     "Vergleichbare Institutionen akzeptieren das Risiko ebenfalls.",
-    "Es gibt keine wirksamen Schutzmaßnahmen gegen das Risiko. [richtig]",
+    "Es gibt keine wirksamen Schutzmaßnahmen gegen das Risiko. ",
     "Es ist bislang noch zu keinem nennenswerten Sicherheitsvorfall aufgrund der dem Risiko zugrunde liegenden Gefährdung gekommen."
   ],
   correctAnswers: [1, 3], // Correct answers are options number 1 and 3 (starting from 1)
@@ -326,7 +326,7 @@ const questionData = [
   id: 30,
   question: "Wann ist die Risikoakzeptanz grundsätzlich unzulässig?",
   choices: [
-    "bei der Nichterfüllung von Basis-Anforderungen [richtig]",
+    "bei der Nichterfüllung von Basis-Anforderungen ",
     "beim Vorhandensein von elementaren Gefährdungen",
     "bei sehr hohem Schutzbedarf",
     "bei Nichterfüllung von Standard-Anforderungen"
@@ -337,10 +337,10 @@ const questionData = [
   id: 31,
   question: "Was müssen Sie prüfen, wenn Sie die Umsetzung von Sicherheitsmaßnahmen planen?",
   choices: [
-    "welche begleitenden Maßnahmen für eine erfolgreiche Umsetzung erforderlich sind [richtig]",
+    "welche begleitenden Maßnahmen für eine erfolgreiche Umsetzung erforderlich sind ",
     "ob die betreffende Maßnahme bereits eingeführt ist",
-    "ob die Maßnahme mit anderen Maßnahmen vereinbar ist [richtig]",
-    "in welcher Reihenfolge die verschiedenen Maßnahmen umgesetzt werden sollen [richtig]"
+    "ob die Maßnahme mit anderen Maßnahmen vereinbar ist ",
+    "in welcher Reihenfolge die verschiedenen Maßnahmen umgesetzt werden sollen "
   ],
   correctAnswers: [1, 3, 4], // Correct answers are options number 1, 3, and 4 (starting from 1)
   explanation: "Bei der Planung der Umsetzung von Sicherheitsmaßnahmen müssen verschiedene Aspekte geprüft werden. Es ist wichtig zu überlegen, welche begleitenden Maßnahmen für eine erfolgreiche Umsetzung erforderlich sind. Zudem muss geprüft werden, ob die Maßnahme mit anderen Maßnahmen vereinbar ist, um Inkonsistenzen zu vermeiden. Auch die Reihenfolge, in der die verschiedenen Maßnahmen umgesetzt werden sollen, sollte sorgfältig geplant werden, um einen effizienten und effektiven Sicherheitsprozess sicherzustellen."
@@ -349,8 +349,8 @@ const questionData = [
   question: "Welche Informationen aus dem IT-Grundschutz-Kompendium unterstützen Sie bei der Festlegung einer sinnvollen Umsetzungsreihenfolge der geplanten Maßnahmen?",
   choices: [
     "die fünfstufige Kennziffer zur Angabe der Priorität einer Anforderung in den IT-Grundschutz-Bausteinen",
-    "die Aufteilung der Anforderungen in Basis- und Standard-Anforderungen sowie solchen für den höheren Schutzbedarf [richtig]",
-    "der Vorschlag zur Kennzeichnung einer sinnvollen Bearbeitungsreihenfolge der Bausteine mithilfe der Kürzel R1, R2 und R3 [richtig]",
+    "die Aufteilung der Anforderungen in Basis- und Standard-Anforderungen sowie solchen für den höheren Schutzbedarf ",
+    "der Vorschlag zur Kennzeichnung einer sinnvollen Bearbeitungsreihenfolge der Bausteine mithilfe der Kürzel R1, R2 und R3 ",
     "die Darstellung der Gefährdungslage am Beginn eines Bausteins"
   ],
   correctAnswers: [2, 3], // Correct answers are options number 2 and 3 (starting from 1)
@@ -360,8 +360,8 @@ const questionData = [
   id: 33,
   question: "Was unternehmen Sie als Informationssicherheitsbeauftragter, wenn die Leitung Ihrer Institution nicht bereit ist, den Aufwand für eine bestimmte Sicherheitsmaßnahme zu tragen?",
   choices: [
-    "Sie verdeutlichen ihr, welche Risiken mit dem Fehlen der Maßnahme verbunden sind. [richtig]",
-    "Sie bitten die Leitung, durch Unterschrift zu bestätigen, dass sie die damit verbundenen Gefahren kennt und trägt. [richtig]",
+    "Sie verdeutlichen ihr, welche Risiken mit dem Fehlen der Maßnahme verbunden sind. ",
+    "Sie bitten die Leitung, durch Unterschrift zu bestätigen, dass sie die damit verbundenen Gefahren kennt und trägt. ",
     "Sie ignorieren die Leitung und setzen die Maßnahme trotzdem um.",
     "Sie verzichten auf eine unmittelbare Reaktion, nehmen sich aber vor, nach Ablauf einer gewissen Zeitspanne die Zustimmung der Leitung einzuholen."
   ],
@@ -373,7 +373,7 @@ const questionData = [
   choices: [
     "die Leitung der IT-Abteilung",
     "der Informationssicherheitsbeauftragte",
-    "der zuständige Systemadministrator [richtig]",
+    "der zuständige Systemadministrator ",
     "der Benutzer des IT-Systems"
   ],
   correctAnswers: [3], // Correct answer is option number 3 (starting from 1)
@@ -383,7 +383,7 @@ const questionData = [
   question: "Wer sollte üblicherweise prüfen, ob eine Sicherheitsmaßnahme wie geplant umgesetzt ist?",
   choices: [
     "die Geschäftsführung",
-    "der Informationssicherheitsbeauftragte [richtig]",
+    "der Informationssicherheitsbeauftragte ",
     "der zuständige IT-Administrator",
     "die Leitung der IT-Abteilung"
   ],
@@ -394,7 +394,7 @@ const questionData = [
   question: "Welches Hilfsmittel im IT-Grundschutz-Kompendium können Sie verwenden, um Ihrer Leitung zu verdeutlichen, welche Risiken die Nichterfüllung von Anforderungen mit sich bringt?",
   choices: [
     "das Restrisikodeklarationsformular im Anhang des Kompendiums",
-    "die Kreuzreferenztabellen am Ende eines Bausteins [richtig]",
+    "die Kreuzreferenztabellen am Ende eines Bausteins ",
     "das Risikokalkulationsschema in der Übersicht der elementaren Gefährdungen",
     "die Beispiele für eine erfolgreiche Sensibilisierung im Baustein ORP.3 Sensibilisierung und Schulung"
   ],
